@@ -1,0 +1,112 @@
+.header {
+    background: #ffffff !important;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.main {
+    margin: 0 16px;
+}
+
+.main-content {
+    padding: 24px;
+    background: #fff;
+    min-height: 360px;
+}
+
+.breadcrumb {
+    margin: 16px 0;
+}
+
+.ant-layout-sider-light, .ant-menu {
+    background: @primary-color !important;
+}
+
+.ant-menu-item, .ant-menu-submenu-title {
+    line-height: 55px !important;
+    height: 54px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    span {
+        color: #ffffff;
+    }
+    &:after {
+        border-right: 3px solid @secundary-color !important;
+    }
+    .anticon {
+        background-color: @secundary-color;
+        border-radius: 100%;
+        width: 28px;
+        height: 28px;
+        color: #ffffff;
+        &:before {
+            margin-top: 7px;
+        }
+    }
+}
+
+.ant-menu-sub {
+    background: #ffffff !important;
+    li {
+        padding-left: 62px !important;
+    }
+}
+
+.ant-menu-submenu-arrow {
+    display: none;
+}
+
+.ant-menu-item-selected, .ant-menu-submenu-selected {
+    background-color: #ffffff !important;
+    span {
+        color: rgba(0, 0, 0, 0.65);
+    }
+}
+
+.ant-menu-submenu-selected {
+    span {
+        font-weight: bold;     
+    }
+}
+
+.ant-layout-sider-zero-width-trigger {
+    top: 12px !important;
+    right: -38px !important;
+    background: transparent !important;
+    color: @secundary-color !important;
+    font-size: 26px !important;
+    width: 50px !important;
+    .anticon {
+        &:before {
+            margin-right: -23px;
+        }
+    }
+}
+
+.ant-layout.ant-layout-has-sider {
+    min-height: 100vh;
+}
+
+.ant-tabs-ink-bar {
+    background-color: @secundary-color !important;
+}
+
+.steps-content {
+    margin-top: 16px;
+    border: 1px dashed #e9e9e9;
+    border-radius: 6px;
+    background-color: #fafafa;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.steps-action {
+    margin-top: 24px;
+}    

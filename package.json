@@ -1,0 +1,29 @@
+{
+  "name": "paoquentinho",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.6.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reduxsauce": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "react-app-rewire-less": "^2.1.2",
+    "react-app-rewire-sass-modules": "^1.1.5",
+    "react-app-rewired": "^1.5.2",
+    "sass-loader": "^7.0.3"
+  }
+}
